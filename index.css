@@ -25,3 +25,22 @@ body {
   margin: 0;
   font-size: 1em;
 }
+
+#info {
+  position: absolute;
+  top: 50px;
+  left: -180px;
+  width: 180px;
+  height: 300px;
+  background: white;
+  z-index: 20;
+  transition: .4s all;
+}
+.info-container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#info.open {
+  left: 0;
+}
